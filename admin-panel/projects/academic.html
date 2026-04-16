@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Academic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/loadPartials.js" defer></script>
+  <script src="js/sidebarToggle.js" defer></script>
+  <script src="js/academic.js" defer></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="column">
+
+      <div id="sidebar-container"></div>
+      <div id="header-container"></div>
+
+    <div id="main" class="p-5">
+      <!--main-->
+      <div class="container mt-5 position-relative">
+        <div class="d-flex justify-content-end">
+          <a href="/viewAcademics" class="btn btn-primary mt-3">View Academics</a>
+        </div>
+        <h2 class="mb-4 text-center">Add New Academic</h2>
+        <div class="card shadow-sm p-4">
+          <form id="academicForm">
+            <div class="mb-3">
+              <label class="form-label">Academic Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter academic name" required>
+            </div>
+              <button type="submit" class="btn btn-success">Add Academic</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+      <div id="footer-container"></div>
+
+    </div>
+  </div>
+</body>
+</html>
